@@ -2,7 +2,7 @@
 
 using MXNet
 using Distributions
-#using Plots
+using Plots
 
 # data generating process
 generate_inputs(mean, var, size) = rand(MvNormal(mean, var), size)
